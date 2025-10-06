@@ -4,11 +4,11 @@
 
 U ovom projektu sistematično je prikazan kompletan proces nadovezivanja preklapajućih slika u panoramu.
 Kroz Jupyter svesku `Image_Stitching.ipynb` postupno se obrađuju ključni koraci procesa opisom standardnih algoritama sa
-implementacijom odredjenih delova mahom oslanjanjem na openCV biblioteku za obradu slika.
-Opisani koraci: detekcija kljucnih tacaka (SIFT algoritam), izracunavanje i uparivanje deskriptora (FLANN sa KNN i Lowe's ratio testom),
+implementacijom određenih delova mahom oslanjanjem na openCV biblioteku za obradu slika.
+Opisani koraci: detekcija ključnih tacaka (SIFT algoritam), izračunavanje i uparivanje deskriptora (FLANN sa KNN i Lowe's ratio testom),
 procena transformacije koja dovodi slike u isti referentni sistem, poravnavanje i stapanje slika u celinu, a zatim izdvajanje
 upotrebljivog pravougaonog rezultata.
-Na samom kraju dat je prakticni prikaz spajanja vise slika u jednu zajednicku panoramu kroz koriscenje openCV funkcija.
+Na samom kraju dat je praktični prikaz spajanja više slika u jednu zajedničku panoramu kroz korišćenje openCV funkcija.
 
 ## Potrebni paketi
 
@@ -16,7 +16,7 @@ Na samom kraju dat je prakticni prikaz spajanja vise slika u jednu zajednicku pa
 - **matplotlib**
 - **opencv**
 
-## Koriscena literatura
+## Korišćena literatura
 
 1. [Richard Szeliskim (2006), _Image Alignment and Stitching: A Tutorial_](https://pages.cs.wisc.edu/~dyer/cs534/papers/szeliski-alignment-tutorial.pdf)
 2. [Yung-Yu Chuang, _Image stitching_](https://www.csie.ntu.edu.tw/~cyy/courses/vfx/23spring/lectures/handouts/lec07_stitching_4up.pdf)
